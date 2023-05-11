@@ -1,0 +1,1153 @@
+{
+   "analytics":{
+      "empty":"Nessun risultato",
+      "timeframes":{
+         "day":"Giorno",
+         "days":"giorni",
+         "hour":"Ora",
+         "hours":"ore",
+         "minutes":"Minuti"
+      }
+   },
+   "api":{
+      "createdAt":"Creato il",
+      "deployedAt":"Distribuito il",
+      "description":"Descrizione",
+      "endpoint":"Percorso",
+      "information":{
+         "about":"Info",
+         "beFirstToRate":"Sii il primo a fornire una valutazione",
+         "categories":"Categorie",
+         "entrypoints":"URL di accesso",
+         "labels":"Etichette",
+         "metrics":"Metriche",
+         "ratings":"Valutazioni",
+         "resources":"Risorse"
+      },
+      "list":{
+         "connectedApps":"Applicazioni connesse"
+      },
+      "name":"Nome",
+      "owner":"Proprietario",
+      "publishedAt":"Pubblicato il",
+      "version":"Versione"
+   },
+   "apiGeneral":{
+      "backToApplication":"Torna all'applicazione \"{name}\"",
+      "backToCatalog":"Torna al catalogo",
+      "backToCategory":"Torna alla categoria \"{name}\"",
+      "backToSearch":"Torna ai risultati di ricerca",
+      "description":"Descrizione",
+      "giveRating":"Condividi la tua opinione",
+      "rate":"Valutazione",
+      "rateComment":"Spiegaci perché",
+      "rateTitle":"Consiglieresti questa API?",
+      "rateTitlePlaceholder":"In breve",
+      "ratingAnswerCreated":"La tua risposta è stata inviata",
+      "ratingAnswerDeleted":"La tua risposta è stata eliminata",
+      "ratingCreated":"La tua recensione è stata inviata",
+      "ratingDeleted":"La tua recensione è stata eliminata",
+      "ratingUpdated":"Grazie per la tua recensione",
+      "ratingsSortOptions":{
+         "answers":"Più commentato",
+         "best":"Valutato come migliore",
+         "newest":"Più recente",
+         "oldest":"Più vecchio",
+         "worst":"Valutato come peggiore"
+      },
+      "showMore":"Mostra di più",
+      "userRatings":"Valutazioni degli utenti"
+   },
+   "apiKeyMode":{
+      "description":"Si prega di notare che questa scelta sarà permanente",
+      "exclusive":{
+         "description":"una nuova API Key sarà generata per ogni nuova sottoscrizione",
+         "title":"API Key generata"
+      },
+      "shared":{
+         "description":"la stessa API Key sarà utilizzata per ogni nuova sottoscrizione",
+         "title":"API Key condivisa"
+      },
+      "title":"API Key"
+   },
+   "apiSubscribe":{
+      "apps":{
+         "chooseApp":"Scegli un'applicazione",
+         "comment":"Lascia un commento per il proprietario dell'API",
+         "connectedApps":"Hai già <b>{count}</b> {count, plural, =0{} one{una applicazione connessa} other{delle applicazioni connesse}} alle API <b>{apiName}</b>.",
+         "createApp":"Voglio creare un'applicazione",
+         "description":"L'applicazione è il collegamentro tra te, consumatore, e la sottoscrizione a un piano API.",
+         "missingClientId":"client_id non presente",
+         "noAvailableApplications":"Non ci sono applicazioni disponibili"
+      },
+      "chooseApp":{
+         "title":"Scelta dell'applicazione"
+      },
+      "chooseKeyMode":{
+         "title":"Scelta del tipo di API Key"
+      },
+      "choosePlan":{
+         "title":"Scelta del piano"
+      },
+      "connectedApps":"{count, plural, =0{} one{Applicazione connessa} other{Applicazioni connesse}} al piano {planName}",
+      "errors":{
+         "information":"Errore in fase di sottoscrizione",
+         "notConnected":"Accedi o crea un account per eseguire una sottoscrizione alle API.",
+         "sorry":"Scusa!"
+      },
+      "exit":"Uscita",
+      "nextStep":"Prossimo",
+      "plan":"Piano",
+      "plans":{
+         "description":"Un catalogo per organizzare le mie API",
+         "sample":"Puoi iniziare a utilizzare le API",
+         "title":"Piani e Caratteristiche"
+      },
+      "previousStep":"Precedente",
+      "success":{
+         "congratulations":"Congratulazioni!",
+         "discoverApi":"Inizia ad esplorare le API",
+         "goToHome":"Torna alla home",
+         "oauth2":"Devi ottenere un access_token dal server di autorizzazione prima di poter utilizzare queste API.",
+         "subscriptionAccepted":"La sottoscrizione dell'applicazione <b>{appName}</b> al piano <b>{planName}</b> per le API <b>{apiName}</b> è stata accettata!",
+         "subscriptionKey":"Ecco la tua chiave personale per accedere alle API",
+         "subscriptionPending":"La sottoscrizione dell'applicazione <b>{appName}</b> al piano <b>{planName}</b> per le API <b>{apiName}</b> è in fase di validazione.",
+         "subscriptionRejected":"La sottoscrizione dell'applicazione <b>{appName}</b> al piano <b>{planName}</b> per le API <b>{apiName}</b> è stata rifiutata."
+      },
+      "validate":{
+         "askConfirmation":"La sottoscrizione dell'applicazione <b>{appName}</b> al piano <b>{planName}</b> per le API <b>{apiName}</b> sta per concludersi.",
+         "information":"{hasAutoValidation, select, true {La validazione è automatica, una volta terminata la sottoscrizione sarai in grado di utilizzare le API.} other {La validazione della tua sottoscrizione richiede l'approvazione del proprietario delle API. Riceverai una e-mail non appena il tuo accesso verrà convalidato.}}",
+         "notCompleted":"La sottoscrizione alle API <b>{apiName}</b> non è completa, torna indietro e inserisci le informazioni mancanti.",
+         "subscription":"Valida la richiesta",
+         "title":"Validazione"
+      }
+   },
+   "application":{
+      "alerts":{
+         "add":{
+            "description":{
+               "label":"Descrizione",
+               "placeholder":"Descrivi il tuo alert..."
+            },
+            "reset":"Ripristina",
+            "success":"Alert creato",
+            "title":"Aggiungi un alert",
+            "type":{
+               "placeholder":"Scegli il tipo",
+               "status":{
+                  "http_status":{
+                     "placeholder":"Stato"
+                  },
+                  "percent":{
+                     "placeholder":"0..100"
+                  }
+               }
+            }
+         },
+         "delete":{
+            "success":"Alert eliminato"
+         },
+         "disabled":"Contatta l'amministratore prima di poter definire delle regole di alert.",
+         "information":"Ogni membro dell'applicazione che ha configurato un indirizzo e-mail riceverà una notifica",
+         "list":{
+            "empty":"Nessun alert configurato",
+            "title":"Lista degli Alert"
+         },
+         "maximum":"Hai raggiunto il massimo di 10 alerts",
+         "phrase":{
+            "api":{
+               "all":"Tutte le API"
+            },
+            "last":"durante l'ultimo",
+            "on":"Alert attivo",
+            "response_time":{
+               "second":"è terminato",
+               "third":"ms"
+            },
+            "status":{
+               "second":"è termianto",
+               "third":"%"
+            },
+            "when":"Quando"
+         },
+         "timeUnits":{
+            "hours":"ore",
+            "minutes":"minuti",
+            "seconds":"secondi"
+         },
+         "type":{
+            "response_time":"tempo medio di risposta (in ms)",
+            "status":"HTTP Status"
+         },
+         "update":{
+            "success":"Alert aggiornato"
+         },
+         "webhook":{
+            "method":{
+               "title":"Seleziona il metodo HTTP utilizzato per richiamare l'URL ad ogni generazione di questo alert"
+            },
+            "notifierWarning":"Per l'utilizzo di notifiche Webhook chiedi all'amministratore di installare il plug-in dedicato",
+            "switch":{
+               "label":"Notifica Webhook",
+               "title":"Abilita le notifiche Webhook per invocare una chiamata HTTP ad ogni generazione di questo alert"
+            },
+            "url":{
+               "placeholder":"https://my.domain/my/example/url",
+               "title":"Inserisci l'URL da chiamare ogni volta che viene generato questo alert"
+            }
+         }
+      },
+      "analytics":{
+         "displayLogs":"Visualizza i log",
+         "exportCSV":"Esporta in formato CSV",
+         "filters":{
+            "advanced":{
+               "hide":"Nascondi filtri avanzati",
+               "show":"Mostra filtri avanzati"
+            },
+            "api":{
+               "label":"API",
+               "title":"Seleziona un'API"
+            },
+            "methods":{
+               "label":"HTTP Methods",
+               "title":"Seleziona un metodo HTTP"
+            },
+            "path":{
+               "label":"Path",
+               "title":"Seleziona il path"
+            },
+            "payloads":{
+               "label":"Corpo del message",
+               "title":"Testo da ricercare nel corpo dei messaggi"
+            },
+            "requestId":{
+               "label":"Request ID",
+               "title":"Inserisci una request ID"
+            },
+            "responseTimes":{
+               "label":"Tempo di risposta",
+               "title":"Seleziona un intervallo di tempo di risposta"
+            },
+            "status":{
+               "label":"stato http",
+               "title":"Seleziona stato HTTP"
+            },
+            "transactionId":{
+               "label":"Transaction Id",
+               "title":"Seleziona un transaction ID"
+            }
+         },
+         "goToAlerts":"Crea alerts",
+         "search":"Cerca"
+      },
+      "change_background":"Cambia sfondo",
+      "change_picture":"Cambia immagine",
+      "client_id":{
+         "label":"Client ID",
+         "title":"Client ID"
+      },
+      "client_secret":{
+         "label":"Cliente segreto",
+         "title":"Cliente segreto"
+      },
+      "delete":{
+         "cancel":"Annulla",
+         "message":"Sei sicuro di voler eliminare questa applicazione?",
+         "ok":"OK"
+      },
+      "description":{
+         "label":"Descrivi lo scopo di questa applicazione",
+         "title":"Descrizione"
+      },
+      "domain":{
+         "label":"https://my-app.com",
+         "title":"Dominio utilizzato dall'applicazione"
+      },
+      "general":"Generale",
+      "information":{
+         "createdDate":"Creato",
+         "lastUpdate":"Aggiornato",
+         "owner":"Proprietario",
+         "title":"Info",
+         "type":"Tipologia"
+      },
+      "list":{
+         "connectedApis":"API sottoscritte"
+      },
+      "log":{
+         "request":"Richiesta",
+         "requestBody":"Corpo della richiesta",
+         "requestContentLength":"Dimensione del contenuto inviato",
+         "requestHeaders":"Intestazioni HTTP della richiesta",
+         "requestId":"Request ID",
+         "response":"Risposta",
+         "responseBody":"Corpo della risposta",
+         "responseContentLength":"Dimensione del contenuto ricevuto",
+         "responseHeaders":"Intestazioni HTTP della risposta",
+         "responseTime":"Tempo di risposta",
+         "transactionId":"Transaction Id"
+      },
+      "logs":{
+         "api":"API",
+         "date":"Data",
+         "displayAnalytics":"Mostra analisi",
+         "method":"Metodo",
+         "path":"Percorso",
+         "plan":"Piano",
+         "responseTime":"Tempo di Risposta",
+         "status":"Stato",
+         "title":"Logs"
+      },
+      "members":{
+         "add":{
+            "add":"Aggiungi",
+            "reset":"Rispristina",
+            "role":{
+               "name":"Ruolo",
+               "placeholder":"Seleziona un ruolo"
+            },
+            "success":"Aggiunto nuovo membro",
+            "title":"Aggiungi un membro",
+            "user":{
+               "name":"Utente",
+               "placeholder":"Cerca un utente..."
+            }
+         },
+         "inherited":{
+            "groupTitle":"{nbMembers} membri ereditati da \"{groupName}\" gruppo",
+            "hide":"Nascondi",
+            "show":"Mostra",
+            "title":"Membri ereditati"
+         },
+         "list":{
+            "member":"Membro",
+            "remove":{
+               "message":"Sei sicuro di voler rimuovere questo membro?",
+               "success":"Membro rimosso",
+               "title":"Rimuovere membro"
+            },
+            "role":"Ruolo",
+            "success":"Ruolo aggiornato",
+            "title":"Lista membri"
+         },
+         "transferOwnership":{
+            "confirm":{
+               "cancel":"Annulla",
+               "message":"Questa azione non può essere annullata.<br/> Il nuovo proprietario è <b>{name}</b>.<br/> Sarai rediretto alla lista delle applicationi.",
+               "ok":"Capito, trasferisci questa applicazione."
+            },
+            "currentPrimaryOwnerNewRole":{
+               "name":"Nuovo ruolo",
+               "placeholder":"Seleziona il nuovo ruolo per l'attuale principale proprietario."
+            },
+            "information":"Dare accesso completo a questa applicazione ad un altro utente.",
+            "newPrimaryOwner":{
+               "name":"Nuovo proprietario principale",
+               "placeholder":"Cerca un nuovo proprietario principale..."
+            },
+            "reset":"Reset",
+            "success":"Principale proprietario aggiornato",
+            "title":"Trasferimento Proprietà",
+            "transfer":"Trasferimento"
+         }
+      },
+      "metadata":{
+         "format":"Formato",
+         "key":"Key",
+         "list":{
+            "add":{
+               "title":"Aggiungere"
+            },
+            "remove":{
+               "title":"Rimuovere"
+            },
+            "title":"Lista Metadati"
+         },
+         "name":"Nome",
+         "reset":{
+            "title":"Rispristino"
+         },
+         "update":{
+            "success":"Aggiornamento completato con successo",
+            "title":"Aggiornamento"
+         },
+         "value":"Valore"
+      },
+      "name":{
+         "label":"Nome dell'app",
+         "title":"Nome dell'applicazione"
+      },
+      "notifications":{
+         "NEW_SUPPORT_TICKET":{
+            "description":"Riceverai una notifica quando verrà creato un ticket relativo alla tua applicazione",
+            "label":"Nuovo Ticket di Supporto"
+         },
+         "SUBSCRIPTION":{
+            "title":"Sottoscrizione"
+         },
+         "SUBSCRIPTION_ACCEPTED":{
+            "description":"Receverai una notifica quando la sottoscrizione sarà accettata",
+            "label":"Sottoscrizione accettata"
+         },
+         "SUBSCRIPTION_CLOSED":{
+            "description":"Riceverai una notifica quando una sottoscrizione sarà chiusa",
+            "label":"Sottoscrizione chiusa"
+         },
+         "SUBSCRIPTION_NEW":{
+            "description":"Riceverai una notifica quando sarà richiesta una nuova sottoscrizione",
+            "label":"Nuova sottoscrizione"
+         },
+         "SUBSCRIPTION_PAUSED":{
+            "description":"Riceverai una notifica quando una sottoscrizione sarà in pausa",
+            "label":"Sottoscrizione in pausa"
+         },
+         "SUBSCRIPTION_REJECTED":{
+            "description":"Riceverai una notifica quando una sottoscrizione sarà rigettata",
+            "label":"Sottoscrizione rigettata"
+         },
+         "SUBSCRIPTION_RESUMED":{
+            "description":"Riceverai una nuova notifica quando una sottoscrizione sarà riattivata a seguito di una pausa",
+            "label":"Sottoscrizione riattivata"
+         },
+         "SUBSCRIPTION_TRANSFERRED":{
+            "description":"Riceverai una notifica quando una sottoscrizione sarà trasferita",
+            "label":"Sottoscrizione trasferita"
+         },
+         "SUPPORT":{
+            "title":"Supporto"
+         },
+         "header":"A quali eventi ti vuoi iscrivere?.",
+         "saveSuccess":"Le tue notifiche alle sottoscrizioni per questa app sono state salvate",
+         "title":"Sottoscrizioni"
+      },
+      "oauth2":"OAuth2 Integrazione",
+      "renewSecret":{
+         "label":"Rinnovare il segreto",
+         "message":"Siete sicuri di voler rinnovare il segreto della vostra domanda?<br/> Rinnovando il segreto, non sarà più possibile generare nuovi token di accesso e chiamare l'API."
+      },
+      "shared-key":{
+         "info":{
+            "created_at":"Generata il",
+            "end_at":"Termina il",
+            "title":"API key"
+         },
+         "message":"L'applicazione è configurata per utilizzare la stessa chiave API per tutte le sottoscrizioni.",
+         "no-key":{
+            "create":"È possibile crearne uno nuovo cliccando su \"Rinnova\".",
+            "message":"Purtroppo non è stata trovata alcuna chiave API condivisa valida.",
+            "recommendation":"Per favore contatta il proprietario dell'applicazione."
+         },
+         "renew":{
+            "message":"Sei sicuro di voler rinnovare questa chiave API condivisa?",
+            "success":"La chiave API condivisa è stata rinnovata con successo.",
+            "title":"Rinnova"
+         },
+         "revoke":{
+            "message":"Sei sicuro di voler revocare questa chiave API condivisa?",
+            "success":"La chiave API condivisa è stata revocata con successo.",
+            "title":"Revoca"
+         },
+         "title":"Applicazione con chiave API condivisa"
+      },
+      "subscriptions":{
+         "api":"API",
+         "apiKey":{
+            "created_at":"Generata il",
+            "end_at":"Termina il",
+            "ended_at":"Completato il",
+            "expired":{
+               "hide":"Nascondere le chiavi scadute",
+               "show":"Mostra le chiavi scadute"
+            },
+            "revoke":{
+               "label":"Revoca",
+               "message":"È sicuro di voler revocare questa chiave API?"
+            },
+            "success":{
+               "revoke":"La chiave API è stata revocata con successo."
+            },
+            "title":"API keys:"
+         },
+         "close":{
+            "message":"È sicuro di voler chiudere la sottoscrizione?",
+            "title":"Chiuso"
+         },
+         "created_at":"Data sottoscrizione",
+         "end_at":"Termina il",
+         "filters":{
+            "api":{
+               "label":"Seleziona un API",
+               "title":"API"
+            },
+            "status":{
+               "label":"Seleziona uno stato",
+               "title":"stato"
+            }
+         },
+         "navigateToApi":"Vai all'API",
+         "plan":"Piano",
+         "processed_at":"Data di elaborazione",
+         "renew":{
+            "message":"Sei sicuro di voler rinnovare la sottoscrizione?",
+            "title":"Rinnova"
+         },
+         "security_type":"Tipo di sicurezza",
+         "selected":{
+            "title":"Informazioni Sottoscrizione"
+         },
+         "start_at":"Data d'inizio",
+         "status":"stato",
+         "subscribed_by":"Sottoscritto da",
+         "success":{
+            "close":"La tua sottoscrizione è stata chiusa con successo",
+            "renew":"La tua sottoscrizione è stata rinnovata con successo"
+         },
+         "title":"Sottoscrizioni"
+      },
+      "success":{
+         "delete":"La tua applicazione è stata cancellata con successo",
+         "renewSecret":"Il segreto della tua applicazione è stato rinnovato con successo",
+         "save":"La tua applicazione è stata rinnovata con successo"
+      },
+      "type":{
+         "label":"Tipologia di applicazione",
+         "title":"Tipologia di applicazione"
+      },
+      "types":"{type, select, BACKEND_TO_BACKEND{Backend to backend} NATIVE{Native} WEB{Web} BROWSER{Browser} SIMPLE{Simple} other{Simple}}"
+   },
+   "applicationCreation":{
+      "apiKeyMode":{
+         "title":"Modalità"
+      },
+      "exit":"Uscita",
+      "general":{
+         "description":{
+            "label":"Descrizione",
+            "placeholder":"Descrivi solo la sua funzione"
+         },
+         "domain":{
+            "label":"Dominio usato dall'applicazione",
+            "placeholder":"https://my-app.com"
+         },
+         "image":"Immagine dell'Applicazione",
+         "name":{
+            "label":"Nome dell'Applicazione",
+            "placeholder":"Nome della tua applicazione"
+         }
+      },
+      "security":{
+         "description":"Per motivi di sicurezza, per favore definisci solo i tipi necessari.",
+         "label":"Tipologie di diritti autorizzati per il cliente."
+      },
+      "step":{
+         "apiKeyMode":"Chiave API",
+         "createApp":"Creare l'applicazione",
+         "general":"Generale",
+         "next":"Successivo",
+         "previous":"Precedente",
+         "security":"Sicurezza",
+         "subscription":"Sottoscrizione",
+         "validate":"Convalida"
+      },
+      "subscription":{
+         "api":{
+            "description":"Trova un API per la tua applicazione"
+         },
+         "comment":"Commenta",
+         "description":"{count, plural, =0{Nessuna sottoscrizione} one{Una sola sottoscrizione} other{{count} sottoscrizioni}}",
+         "disabledPlans":"clientID necessario per la sottoscrizione {count, plural, =0{al piano disabilitato} one{al piano disabilitato} other{ai piani disabilitati}}",
+         "noPlan":"Non è disponibile un piano per questa API",
+         "plan":{
+            "description":"Trova le API per la tua applicazione e aggiungi i piani a cui ti vuoi iscrivere"
+         },
+         "remove":"Rimuovi",
+         "resubscribe":"Riprova",
+         "subscribe":"Iscriviti",
+         "validation":{
+            "auto":"Automatico",
+            "manual":"Manuale",
+            "type":"Convalida"
+         }
+      },
+      "validation":{
+         "confirm":"L'applicazione \"{name}\" è pronta!",
+         "error":{
+            "description":"Si è verificato un errore durante la creazione dell'applicazione.",
+            "title":"Mi dispiace"
+         },
+         "pending":{
+            "description":"Mancano le informazioni per creare la tua applicazione.<br/> Per favore controlla che tutti i passaggi siano stati convalidati.",
+            "title":"Hai quasi finito"
+         },
+         "subscriptionTitle":"Richiesta sottoscrizione"
+      }
+   },
+   "applicationType":{
+      "backend_to_backend":{
+         "description":"Da macchina a macchina",
+         "title":"Da backend a backend"
+      },
+      "browser":{
+         "description":"Angular, React, ...",
+         "title":"SPA"
+      },
+      "native":{
+         "description":"iOS, Android, ...",
+         "title":"Native"
+      },
+      "security":{
+         "authorization_code":{
+            "description":" ",
+            "title":"Codice di Autenticazione"
+         },
+         "clientId":{
+            "description":"Il Client_id dell'applicazione. Questo campo è necessario per iscriversi a un certo tipo di piano API (OAuth2, JWT).",
+            "label":"Client ID"
+         },
+         "client_credentials":{
+            "description":" ",
+            "title":"Credenziali del cliente"
+         },
+         "implicit":{
+            "description":" ",
+            "title":"Implicito"
+         },
+         "implicit_hybrid":{
+            "description":" Ibrido",
+            "title":"Implicito"
+         },
+         "password":{
+            "description":"Fornito dal proprietario della risorsa",
+            "title":"Password"
+         },
+         "redirectUris":{
+            "description":"URI dove il server di autorizzazione invierà le risposte di OAuth",
+            "label":"URI di reindirizzamento"
+         },
+         "refresh_token":{
+            "description":" ",
+            "title":"Aggiorna il token"
+         },
+         "simple":{
+            "description":"Tipologia di applicazione(mobile, web, ...)",
+            "title":"Tipologia"
+         }
+      },
+      "simple":{
+         "description":"Applicazione hands-free.<br/>Utilizzando questo tipo, è possibile definire il client_id in modo autonomo.",
+         "title":"Semplice"
+      },
+      "web":{
+         "description":"Java, .Net, ...",
+         "title":"Web"
+      }
+   },
+   "applications":{
+      "subscribers":{
+         "title":"Vedi {count, plural, one{la sottoscrizione} other{le sottoscrizioni}} dell'applicazione {appName}"
+      },
+      "title":"Applicazioni"
+   },
+   "catalog":{
+      "ALL":{
+         "emptyMessage":"Il portale non contiene alcuna API"
+      },
+      "FEATURED":{
+         "emptyMessage":"Non c'è un'API in evidenza"
+      },
+      "STARRED":{
+         "emptyMessage":"Non ci sono ancora note"
+      },
+      "TRENDINGS":{
+         "emptyMessage":"Non esiste ancora una Trend API"
+      },
+      "categories":{
+         "emptyMessage":"La categoria non contiene alcuna API"
+      },
+      "category":{
+         "documentation":{
+            "hide":"Nascondi documentazione",
+            "show":"Mostra documentazione"
+         }
+      },
+      "defaultCategory":"Tutte le API",
+      "display":{
+         "cards":"Mostra carte",
+         "list":"Mostra lista"
+      },
+      "filter":"Filtra i risutati",
+      "othersApi":{
+         "subTitle":"Scopri le diverse API in prima pagina questo mese",
+         "title":"Altre API"
+      },
+      "search":"Cerca API",
+      "searchAdvanced":"name:\"La mia api *\" ownerName:admin"
+   },
+   "categories":{
+      "empty":"Non ci sono categorie",
+      "title":"Categorie"
+   },
+   "common":{
+      "cancel":"Annulla",
+      "date":{
+         "range":{
+            "title":"Seleziona un intervallo di tempo"
+         }
+      },
+      "delete":"Rimuovi",
+      "filters":{
+         "title":"Filtri"
+      },
+      "general_conditions":{
+         "accept":"Accetto i termini e le condizioni",
+         "title":"Condizioni generali di utilizzo"
+      },
+      "ok":"Convalida",
+      "options":"Opzioni",
+      "reset":"Ripristina",
+      "save":"Salva",
+      "search":"Cerca",
+      "status":{
+         "ACCEPTED":"Accettato",
+         "CLOSED":"Chiuso",
+         "PAUSED":"In Pausa",
+         "PENDING":"In Attesa",
+         "REJECTED":"Rigettato"
+      },
+      "update":"Aggiornamento"
+   },
+   "cookies":{
+      "actions":{
+         "decline":"Declino",
+         "ok":"Accetto"
+      },
+      "confirmation":"In caso di rifiuto, i vostri dati di navigazione non saranno raccolti quando visitate questo sito web. Oltre ai cookie richiesti dal sito web, verrà creato un solo cookie nel vostro browser per ricordare la vostra volontà di non essere tracciati.",
+      "googleAnalyticsDescription":"Consenti i cookie per l'analisi di Google",
+      "information":{
+         "common":"Questo sito web salva i cookie sul vostro computer. Questi cookie sono utilizzati per memorizzare le vostre preferenze e le informazioni sulla vostra connessione. Ci permettono di migliorare la vostra esperienza di navigazione.",
+         "withAnalytics":"È inoltre possibile raccogliere dati analitici e metrici sui visitatori (usando <a href=\"https://policies.google.com/privacy\" target=\"_blank\">Google Analytics</a>)."
+      },
+      "manage":"Potete gestire la vostra preferenza per i cookie qui.",
+      "success":{
+         "disable":"Cookie {cookieName} disabilitato",
+         "enable":"Cookie {cookieName} abilitato"
+      },
+      "title":"Impostazioni dei Cookie"
+   },
+   "dashboard":{
+      "applications":{
+         "create":"Crea un'applicazione",
+         "createFirst":"Crea la mia prima applicazione",
+         "list":"Guarda le tue applicazioni",
+         "title":"Le tue applicazioni"
+      },
+      "empty":"Non hai ancora un'applicazione",
+      "noApplicationPermission":"Non c'è nulla nella tua dashboard",
+      "stats":{
+         "avg":"tempo medio di risposta",
+         "max":"tempo di risposta massimo",
+         "min":"tempo di risposta minimo",
+         "ms":"ms",
+         "rph":"richieste per ora",
+         "rpm":"richieste per minuto",
+         "rps":"richieste per secondo",
+         "total":"totale"
+      },
+      "subscriptions":{
+         "api":"API",
+         "application":"Applicazione",
+         "list":{
+            "empty":"Nessuna sottoscrizione"
+         },
+         "plan":"Piano",
+         "subtitle":"Seleziona la sottoscrizione per vedere l'attività dell'ultima settimana.",
+         "title":"Le tue sottoscrizioni"
+      },
+      "welcome":"Benvenuto {username},"
+   },
+   "errors":{
+      "clientRegistrationProvider":{
+         "exception":"Si è verificato un errore durante la connessione al servizio di gestione degli accessi"
+      },
+      "email":{
+         "required":"Si prega di configurare un'e-mail per utilizzare il modulo di contatto"
+      },
+      "forbidden":"Non disponi di diritti sufficienti per accedere a questa risorsa",
+      "metadata":{
+         "exists":"I metadati \"{metadata}\" esistono già"
+      },
+      "passwordFormat":{
+         "invalid":"La password non è valida secondo le linee guida"
+      },
+      "plan":{
+         "general_conditions_accept":"Il piano {plan} richiede l'accettazione delle condizioni generali di utilizzo.",
+         "general_conditions_revision":"Le condizioni di utilizzo del piano {plan} sono state cambiate.",
+         "general_conditions_status":"Il piano {plan} fa riferimento a una pagina di termini d'uso non pubblicata.",
+         "notSubscribable":"Un client_id è necessario per sottoscrivere ad un piano OAuth2 o JWT.",
+         "notSubscribableWithSharedApiKey":"Non è possibile sottoscrivere un secondo piano di chiavi API sulla stessa API in modalità chiave API condivisa.",
+         "otherOAuth2OrJWTSubscribed":"Un altro piano OAuth2 o JWT è già stato sottoscritto dalla stessa applicazione.",
+         "subscribed":"Esiste già una sottoscrizione in corso o accettata per questo piano."
+      },
+      "server":{
+         "unavailable":"Server non disponibile o connessione persa"
+      },
+      "support":{
+         "disabled":"Il modulo di contatto non è disponibile in questo momento"
+      },
+      "unexpected":"Si è verificato un errore imprevisto",
+      "user":{
+         "exists":"Esiste già un utente con l'email: {user}",
+         "finalized":"L'account è già stato completato",
+         "resetpassword":"Il reset della password è già stato richiesto, si prega di controllare la posta elettronica e di attendere qualche minuto prima di un nuovo tentativo."
+      }
+   },
+   "footer":{
+      "rights":"© Tutti i diritti riservati 2023"
+   },
+   "gv-card-full":{
+      "empty":"Nessuna API da visualizzare qui",
+      "error":"Si è verificato un errore durante il caricamento dell'API"
+   },
+   "gv-card":{
+      "empty":"Nessuna API da visualizzare qui",
+      "error":"Si è verificato un errore durante il caricamento dell'API"
+   },
+   "gv-category-list":{
+      "error":"Si è verificato un errore durante il caricamento dell'elenco"
+   },
+   "gv-category":{
+      "empty":"Nessuna categoria da visualizzare qui",
+      "error":"Si è verificato un errore durante il caricamento della categoria"
+   },
+   "gv-chart":{
+      "empty":"Nessun risultato da visualizzare",
+      "error":"Si è verificato un errore durante il caricamento dei dati"
+   },
+   "gv-code":{
+      "copy":"Copia negli appunti"
+   },
+   "gv-confirm":{
+      "cancel":"Annulla",
+      "ok":"Ok"
+   },
+   "gv-contact":{
+      "apis":{
+         "label":"Trovare un'API",
+         "title":"Associa un'API"
+      },
+      "applications":{
+         "label":"Trova un'applicazione",
+         "title":"Associa un'applicazione"
+      },
+      "button":"Invia la tua richiesta",
+      "content":{
+         "label":"Spiega la tua richiesta...",
+         "title":"La tua richiesta"
+      },
+      "receiveCopy":"Ricevere una copia via e-mail",
+      "subject":{
+         "label":"Descrivi l'oggetto...",
+         "title":"Oggetto"
+      },
+      "success":"La tua richiesta è stata inviata al proprietario",
+      "title":"La tua richiesta"
+   },
+   "gv-create-application":{
+      "createApplication":"Crea un'app"
+   },
+   "gv-date-picker":{
+      "endDate":"Data di scadenza",
+      "format":"MM/dd/yyyy",
+      "now":"Ora",
+      "ok":"Ok",
+      "startDate":"Data di inizio",
+      "today":"Oggi"
+   },
+   "gv-documentation":{
+      "empty":"nessuna documentazione disponibile al momento"
+   },
+   "gv-file-upload":{
+      "chooseAnotherFile":"scegli un altro file",
+      "chooseFile":"Scegli un file",
+      "error":{
+         "maxSize":"La dimensione del file supera il limite consentito",
+         "typeNotAllowed":"Questo tipo di file non è consentito"
+      },
+      "orDragIt":"o rilascialo qui.",
+      "removePicture":"Rimuovi immagine"
+   },
+   "gv-header":{
+      "empty":"Nessuna API da visualizzare qui",
+      "error":"Si è verificato un errore durante il caricamento dell'API",
+      "subscribe":"Registrazione"
+   },
+   "gv-input":{
+      "copy":"Copia negli appunti",
+      "search":"Cerca"
+   },
+   "gv-list":{
+      "error":"Si è verificato un errore durante il caricamento dell'elenco",
+      "paused":"In Pausa",
+      "pending":"In attesa"
+   },
+   "gv-markdown-toc":{
+      "title":"Tabella dei contenuti"
+   },
+   "gv-metrics":{
+      "health":"Salute",
+      "hits":"{count, plural, =0{Hit} one{Hit} other{Hits}} (ultimi 7 giorni)",
+      "subscribers":"{count, plural, =0{Sottoscrittore} one{Sottoscrittore} other{Sottoscrittori}}"
+   },
+   "gv-page":{
+      "swagger":{
+         "badFormat":"La pagina che si sta cercando di visualizzare non è in formato swagger / OpenAPI"
+      }
+   },
+   "gv-pagination":{
+      "next":"Successivo",
+      "previous":"Precedente"
+   },
+   "gv-plans":{
+      "characteristics":{
+         "empty":"Nessuna informazione su questo piano"
+      },
+      "empty":{
+         "redirect":"Desidero contattare il proprietario per saperne di più",
+         "title":"L'API non ha un piano disponibile in questo momento."
+      },
+      "error":"Si è verificato un errore durante il caricamento dei piani.",
+      "security":{
+         "apiKey":"Chiave Personale",
+         "jwt":"Json Web Token",
+         "keyLess":"Key Less",
+         "oauth2":"Oauth 2"
+      },
+      "validation":{
+         "auto":"Validazione automatica",
+         "manual":"Validazione manuale"
+      }
+   },
+   "gv-promote":{
+      "empty":"Nessuna API da visualizzare qui",
+      "error":"Si è verificato un errore durante il caricamento dell'API",
+      "view":"Visualizza API"
+   },
+   "gv-rating-list":{
+      "answerLabel":"Aggiungi una risposta",
+      "cancel":"Annulla",
+      "confirmAnswerDelete":"Sei sicuro di voler cancellare la risposta?",
+      "confirmRatingDelete":"Sei sicuro di voler cancellare la valutazione?",
+      "deleteAnswer":"Cancella risposta",
+      "deleteRating":"Cancella valutazione",
+      "reply":"Rispondi",
+      "send":"Invia"
+   },
+   "gv-rating":{
+      "description-1":"Non mi piace affatto",
+      "description-2":"Non mi piace",
+      "description-3":"Mi piace",
+      "description-4":"Mi piace molto",
+      "description-5":"È perfetto",
+      "note":"Note",
+      "notes":"Recensioni"
+   },
+   "gv-row":{
+      "empty":"Nessun risultato da visualizzare",
+      "error":"Si è verificato un errore durante il caricamento dell'API"
+   },
+   "gv-stats":{
+      "empty":"Nessun risultato da visualizzare",
+      "error":"Si è verificato un errore durante il caricamento dei dati"
+   },
+   "gv-stepper":{
+      "error":"Si è verificato un errore durante il caricamento degli steps"
+   },
+   "gv-table":{
+      "accepted":"Accettato",
+      "empty":"Nessun risultato da visualizzare",
+      "error":"Si è verificato un errore durante il caricamento dei dati",
+      "paused":"In Pausa",
+      "pending":"In attesa",
+      "rejected":"Rigettato"
+   },
+   "homepage":{
+      "apis":"APIs in evidenza",
+      "explore":"Esplora le API",
+      "signup":"Iscriviti",
+      "title":"Libera la potenza delle tue API."
+   },
+   "login":{
+      "button":"Accedi",
+      "notification":{
+         "error":"Nome utente o password non validi"
+      },
+      "password":"Password",
+      "resetPassword":"Reimposta la password",
+      "signup":{
+         "link":"Iscriviti!",
+         "text":"Non hai ancora un account?"
+      },
+      "title":"Chi sei?",
+      "username":"Nome utente"
+   },
+   "notFound":{
+      "goHome":"Vai alla Home",
+      "message":"La pagina che state cercando non è stata trovata/non esiste più. Non preoccupatevi, nulla è ancora perduto!",
+      "title":"Pagina non trovata"
+   },
+   "register":{
+      "field":{
+         "address":"Indirizzo",
+         "city":"Città",
+         "country":"Paese",
+         "job_position":"Posizione",
+         "organization":"Azienda",
+         "telephone_number":"Numero di telefono",
+         "zip_code":"Codice Postale"
+      }
+   },
+   "registration":{
+      "backHome":"Torna al portale",
+      "backLogin":"Torna ad Accedi",
+      "button":"Iscriviti",
+      "email":"Email",
+      "firstname":"Nome",
+      "lastname":"Cognome",
+      "success":{
+         "message":"È stata inviata un'e-mail a: {email}",
+         "title":"Registrazione confermata!"
+      },
+      "title":"Crea un account"
+   },
+   "registrationConfirmation":{
+      "backHome":"Torna al portale",
+      "backLogin":"Torna ad Accedi",
+      "backRegistration":"Torna alla registrazione",
+      "button":"Conferma",
+      "confirmedPassword":"Conferma la tua password",
+      "email":"Email",
+      "firstname":"Nome",
+      "lastname":"Cognome",
+      "password":"Scegli una password",
+      "success":{
+         "message":"La creazione del tuo account è stata confermata",
+         "title":"Registrazione riuscita"
+      },
+      "title":"Conferma la registrazione",
+      "tokenExpired":"La tua richiesta di creazione dell'account è scaduta"
+   },
+   "resetPassword":{
+      "backHome":"Torna al portale",
+      "backLogin":"Torna ad Accedi",
+      "button":"Reimposta la tua password",
+      "success":{
+         "message":"Se l'account esiste, verrà inviata un'e-mail.",
+         "title":"Confermato il reset della password!"
+      },
+      "title":"Reimposta la password",
+      "username":"Username"
+   },
+   "resetPasswordConfirmation":{
+      "backHome":"Torna al portale",
+      "backLogin":"Torna a Accedi",
+      "backResetPassword":"Torna a Reset della password",
+      "button":"Conferma",
+      "confirmedPassword":"Conferma la password",
+      "email":"Email",
+      "firstname":"Nome",
+      "lastname":"Cognome",
+      "password":"Scegli una password",
+      "success":{
+         "message":"La tua password è stata modificata",
+         "title":"Reset riuscito"
+      },
+      "title":"Scegli una password",
+      "tokenExpired":"La richiesta di reimpostazione della password è scaduta"
+   },
+   "route":{
+      "alerts":"Allarmi",
+      "analyticsApplication":"Analisi",
+      "applicationCreation":"Crea un'applicazione",
+      "applications":"Applicazioni",
+      "catalog":"Catalogo",
+      "catalogAll":"Tutte le API",
+      "catalogApi":"Informazioni generali",
+      "catalogApiContact":"Contatto",
+      "catalogApiDocumentation":"Documentazione",
+      "catalogApiSubscribe":"Registrazione",
+      "catalogCategories":"Categorie",
+      "catalogCategory":"Categoria",
+      "catalogFeatured":"In evidenza",
+      "catalogStarred":"Valutazione",
+      "catalogTrending":"Di tendenza",
+      "contact":"Contatto",
+      "cookies":"Impostazioni dei Cookies",
+      "dashboard":"Dashboard",
+      "homepage":"Home page",
+      "login":"Accedi",
+      "logout":"Esci",
+      "logsApplication":"Logs",
+      "management":"Amministrazione",
+      "members":"Membri",
+      "metadata":"Metadata",
+      "myApplications":"Le mie applicazioni",
+      "mySubscriptions":"Le mie sottoscrizioni",
+      "notFound":"Pagina non trovata",
+      "notifications":"Notifiche",
+      "subscriptions":"Sottoscrizioni",
+      "tickets":"Tickets",
+      "user":"Il mio account"
+   },
+   "search":{
+      "results":{
+         "label":"{count, plural, =0{Nessun risultato} one{{count} risultato} other{{count} risultati}}"
+      }
+   },
+   "site":{
+      "title":"Portale API di Gravitee.io"
+   },
+   "subscriptions":{
+      "applications":{
+         "init":"Non hai alcuna applicazione",
+         "name":"Nome",
+         "navigate":"Vai all'applicazione",
+         "owner":"Proprietario",
+         "title":"Applicazioni"
+      },
+      "subscriptions":{
+         "api":"API",
+         "empty":"Nessuna sottoscrizione per questa applicazione",
+         "end_date":"Data di scadenza",
+         "init":"Passa su un'applicazione per visualizzare le sue sottoscrizioni",
+         "navigate":"Vai alla sottoscrizione",
+         "plan":"Piano",
+         "start_date":"Data di inizio",
+         "title":"Sottoscrizioni"
+      },
+      "title":"Le mie sottoscrizioni"
+   },
+   "tickets":{
+      "api":"API",
+      "application":"Applicazione",
+      "content":"Contenuto",
+      "date":"Data",
+      "subject":"Oggetto",
+      "title":"Tickets"
+   },
+   "user":{
+      "account":{
+         "success":"Il tuo account è stato aggiornato con successo",
+         "title":"Informazioni personali"
+      },
+      "change_picture":"Cambia foto",
+      "email":"Email:",
+      "first_name":"Nome",
+      "last_name":"Cognome",
+      "notifications":{
+         "empty":"Nessuna notifica ricevuta",
+         "read":"Leggi",
+         "title":"Notifiche"
+      }
+   }
+}
